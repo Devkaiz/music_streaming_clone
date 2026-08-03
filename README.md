@@ -32,9 +32,6 @@ Spotify-Clone/
 └── README.md
 ```
 
-## 📸 Preview
-
-(Add a screenshot here)
 
 ## 🚀 Future Improvements
 
