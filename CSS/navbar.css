@@ -1,0 +1,132 @@
+/* =========================
+   Navbar
+========================= */
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.left-half{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.logo{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.home-icon{
+    font-size: 1.7rem;
+    background-color: #1a1a1a;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 1rem;
+    transition: 0.2s;
+}
+
+.home-icon:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    background-color: #1f1f1f;
+    height: 3rem;
+    width: 30rem;
+    border-radius: 20rem;
+}
+
+.search-bar:hover{
+    background-color: #272727;
+    border: 1px solid rgb(76, 76, 76);
+}
+
+.search-icon{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    padding: 0 0.7rem;
+}
+
+.input-box{
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 78%;
+    height: 68%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.search-bar:hover .input-box{
+    color: white;
+}
+
+.browse{
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    padding: 0 0.7rem;
+}
+
+.browse:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+.right-half{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.right-half-p1{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid rgb(179, 179, 179);
+    padding-right: 1rem;
+}
+
+.right-half-p2{
+    display: flex;
+    align-items: center;
+}
+
+.nav-text{
+    padding: 0 0.5rem;
+    font-weight: 600;
+    color: rgb(179, 179, 179);
+    transition: 0.1s;
+}
+
+.nav-text:hover{
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.login-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 15rem;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+.login-btn:hover{
+    transform: scale(1.05);
+}
