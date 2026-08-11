@@ -22,3 +22,56 @@
     overflow-x: auto;
     scrollbar-width: none;
 }
+/* =========================
+   Music Card
+========================= */
+.music-card{
+    width: 10rem;
+    padding: 0.7rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+.music-card img{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+
+.img-title{
+    margin: 0.7rem 0;
+}
+
+.img-description{
+    font-size: 0.8rem;
+    color: rgb(199, 199, 199);
+}
+
+/* =========================
+   Play Button Hover Effect
+========================= */
+
+.music-play-button{
+    color: rgb(32, 234, 32);
+    font-size: 2.7rem;
+    position: absolute;
+    background-color: black;
+    width: 2.7rem;
+    display: flex;
+    border-radius: 20rem;
+    transform: translate(110px, -40px);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.music-card:hover{
+    background-color: #222222;
+    transform: scale(1.05);
+}
+
+.music-card:hover .music-play-button{
+    opacity: 1;
+    transform: translate(110px, -50px);
+}
